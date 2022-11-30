@@ -5,14 +5,15 @@ main {
 .grid {
   width: 650px;
   height: 650px;
-  border: 1px solid black;
 }
 
 .squareCSS {
   width: calc(100% / 10);
   height: calc(100% / 10);
-  border: 1px solid black;
+  border: 2px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
+  outline: solid white;
+  outline-width: thin;
 }
