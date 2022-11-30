@@ -8,8 +8,8 @@ main {
 }
 
 .grid {
-  width: 650px;
-  height: 650px;
+  width: 550px;
+  height: 550px;
 }
 
 .squareCSS {
@@ -19,6 +19,5 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  outline: solid white;
-  outline-width: thin;
+  border: 1px solid black;
 }
