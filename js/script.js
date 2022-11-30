@@ -1,6 +1,5 @@
-// // Ciclo FOR per le 100 caselle
-// Collego il container dei quadrati
-let gridElem = document.getElementById("grid");
+let gridElem = document.querySelector(".grid");
+let buttonElem = document.querySelector(".btn");
 
 function createGrid() {
   for (i = 1; i <= 100; i++) {
@@ -12,3 +11,9 @@ function createGrid() {
 
   return;
 }
+
+buttonElem.addEventListener("click", function () {
+  gridElem.innerHTML = "";
+
+  createGrid();
+});
